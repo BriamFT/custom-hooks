@@ -23,9 +23,6 @@ export const useFetch = ( url ) => {
                         data
                     }) 
                 } 
-                // else {
-                //     console.log( 'setState no se llamo' ); 
-                // }
             })
             .catch( () => {
                 setState({
